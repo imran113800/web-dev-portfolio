@@ -99,3 +99,68 @@ main{
     display: flex;
     justify-content: space-around;
  }
+ .text-alin{
+    text-align: center;
+ }
+ .skills-container{
+    display: flex;
+    gap: 24px;
+    margin-top: 100px;
+ }
+ .skill{
+    padding: 24px;
+    border-radius: 5px;
+    box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06) ;
+    
+ }
+ .skills{
+    margin-top: 130px;
+    margin-bottom: 120px;
+ }
+ /* resume style  */
+ .resume-summary{
+    display: flex;
+    gap: 24px;
+ }
+ .experience-description{
+    text-decoration: rgba(117, 117, 117, 1);
+    font-size: 16px;
+    font-weight:400;
+    
+ }
+ .resume-column-title{
+    text-align: center;
+    font-size: 50px;
+ }
+.experience-description .experience-sub-title{
+    color:rgba(117, 117, 117, 1);
+}
+.button-style{
+    text-align: center;
+    margin-top: 50px;
+}
+.footer-description{
+    display: flex;
+    padding: 230px;
+}
+.download-cv-style{
+    margin-bottom: 100px;
+}
+footer{
+    gap:100px;
+    padding: 130px 230px;
+}
+.footer-column{
+    width: 50%;
+}
+footer input[type="text"],footer input[type="email"],footer textarea{
+    height:64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px ;
+    margin-bottom: 24px;
+    border: none;
+
+}
